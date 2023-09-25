@@ -574,7 +574,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000008000400                resource_table
                 0x0000000008000410                . = ALIGN (0x8)
 
-.text           0x0000000008000410     0x1d1c
+.text           0x0000000008000410     0x1d24
                 0x0000000008000410                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000410       0x40 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -910,264 +910,264 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000008000e04                __aeabi_idiv0
  *(.text*)
  .text.GPIO5_Combined_0_15_IRQHandler
-                0x0000000008000e08       0x30 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+                0x0000000008000e08       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
                 0x0000000008000e08                GPIO5_Combined_0_15_IRQHandler
  .text.startup.main
-                0x0000000008000e38       0x68 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
-                0x0000000008000e38                main
+                0x0000000008000e34       0x68 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+                0x0000000008000e34                main
  .text.BOARD_InitPins
-                0x0000000008000ea0       0x30 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
-                0x0000000008000ea0                BOARD_InitPins
+                0x0000000008000e9c       0x30 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+                0x0000000008000e9c                BOARD_InitPins
  .text.BOARD_InitBootPins
-                0x0000000008000ed0        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
-                0x0000000008000ed0                BOARD_InitBootPins
+                0x0000000008000ecc        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+                0x0000000008000ecc                BOARD_InitBootPins
  .text.BOARD_InitDebugConsole
-                0x0000000008000ed4       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
-                0x0000000008000ed4                BOARD_InitDebugConsole
+                0x0000000008000ed0       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+                0x0000000008000ed0                BOARD_InitDebugConsole
  .text.BOARD_InitMemory
-                0x0000000008000f18      0x204 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
-                0x0000000008000f18                BOARD_InitMemory
+                0x0000000008000f14      0x204 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+                0x0000000008000f14                BOARD_InitMemory
  .text.BOARD_RdcInit
-                0x000000000800111c       0x90 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
-                0x000000000800111c                BOARD_RdcInit
+                0x0000000008001118       0x90 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+                0x0000000008001118                BOARD_RdcInit
  .text.BOARD_BootClockRUN
-                0x00000000080011ac      0x16c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
-                0x00000000080011ac                BOARD_BootClockRUN
+                0x00000000080011a8      0x16c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x00000000080011a8                BOARD_BootClockRUN
  .text.HAL_UartInit
-                0x0000000008001318       0x6c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-                0x0000000008001318                HAL_UartInit
+                0x0000000008001314       0x6c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000008001314                HAL_UartInit
  .text.HAL_UartReceiveBlocking
-                0x0000000008001384       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-                0x0000000008001384                HAL_UartReceiveBlocking
+                0x0000000008001380       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000008001380                HAL_UartReceiveBlocking
  .text.HAL_UartSendBlocking
-                0x00000000080013a4       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-                0x00000000080013a4                HAL_UartSendBlocking
+                0x00000000080013a0       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x00000000080013a0                HAL_UartSendBlocking
  .text.GetFracPllFreq
-                0x00000000080013bc       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00000000080013bc                GetFracPllFreq
+                0x00000000080013b8       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000080013b8                GetFracPllFreq
  .text.GetIntegerPllFreq
-                0x0000000008001400       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x0000000008001400                GetIntegerPllFreq
+                0x00000000080013fc       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000080013fc                GetIntegerPllFreq
  .text.SystemCoreClockUpdate
-                0x0000000008001444       0x9c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x0000000008001444                SystemCoreClockUpdate
+                0x0000000008001440       0x9c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x0000000008001440                SystemCoreClockUpdate
  .text.SystemInitHook
-                0x00000000080014e0        0x2 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00000000080014e0                SystemInitHook
- *fill*         0x00000000080014e2        0x2 
+                0x00000000080014dc        0x2 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000080014dc                SystemInitHook
+ *fill*         0x00000000080014de        0x2 
  .text.SystemInit
-                0x00000000080014e4       0x1c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00000000080014e4                SystemInit
+                0x00000000080014e0       0x1c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000080014e0                SystemInit
  .text.AUDIOMIX_InitAudioPll
-                0x0000000008001500       0x64 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
-                0x0000000008001500                AUDIOMIX_InitAudioPll
+                0x00000000080014fc       0x64 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x00000000080014fc                AUDIOMIX_InitAudioPll
  .text.CLOCK_GetPllRefClkFreq
-                0x0000000008001564       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x0000000008001564                CLOCK_GetPllRefClkFreq
+                0x0000000008001560       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001560                CLOCK_GetPllRefClkFreq
  .text.CLOCK_InitFracPll
-                0x0000000008001584       0x54 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x0000000008001584                CLOCK_InitFracPll
+                0x0000000008001580       0x54 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001580                CLOCK_InitFracPll
  .text.CLOCK_InitAudioPll1
-                0x00000000080015d8       0x28 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00000000080015d8                CLOCK_InitAudioPll1
+                0x00000000080015d4       0x28 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00000000080015d4                CLOCK_InitAudioPll1
  .text.CLOCK_InitAudioPll2
-                0x0000000008001600       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x0000000008001600                CLOCK_InitAudioPll2
+                0x00000000080015fc       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00000000080015fc                CLOCK_InitAudioPll2
  .text.CLOCK_GetFracPllFreq
-                0x000000000800162c       0x40 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x000000000800162c                CLOCK_GetFracPllFreq
+                0x0000000008001628       0x40 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001628                CLOCK_GetFracPllFreq
  .text.CLOCK_GetIntegerPllFreq
-                0x000000000800166c       0x36 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x000000000800166c                CLOCK_GetIntegerPllFreq
- *fill*         0x00000000080016a2        0x2 
+                0x0000000008001668       0x36 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001668                CLOCK_GetIntegerPllFreq
+ *fill*         0x000000000800169e        0x2 
  .text.CLOCK_GetPllFreq
-                0x00000000080016a4       0xb4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00000000080016a4                CLOCK_GetPllFreq
+                0x00000000080016a0       0xb4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00000000080016a0                CLOCK_GetPllFreq
  .text.CLOCK_SetRootDivider
-                0x0000000008001758       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x0000000008001758                CLOCK_SetRootDivider
+                0x0000000008001754       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001754                CLOCK_SetRootDivider
  .text.CLOCK_EnableClock
-                0x0000000008001778       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x0000000008001778                CLOCK_EnableClock
+                0x0000000008001774       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001774                CLOCK_EnableClock
  .text.SDK_DelayAtLeastUs
-                0x00000000080017c8       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
-                0x00000000080017c8                SDK_DelayAtLeastUs
+                0x00000000080017c4       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+                0x00000000080017c4                SDK_DelayAtLeastUs
  .text.GPIO_PinWrite
-                0x00000000080017ec       0x16 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
-                0x00000000080017ec                GPIO_PinWrite
+                0x00000000080017e8       0x16 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x00000000080017e8                GPIO_PinWrite
  .text.GPIO_PinSetInterruptConfig
-                0x0000000008001802       0x7c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
-                0x0000000008001802                GPIO_PinSetInterruptConfig
- *fill*         0x000000000800187e        0x2 
+                0x00000000080017fe       0x7c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x00000000080017fe                GPIO_PinSetInterruptConfig
+ *fill*         0x000000000800187a        0x2 
  .text.GPIO_PinInit
-                0x0000000008001880       0x9c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
-                0x0000000008001880                GPIO_PinInit
+                0x000000000800187c       0x9c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x000000000800187c                GPIO_PinInit
  .text.UART_GetInstance
-                0x000000000800191c       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x000000000800191c                UART_GetInstance
+                0x0000000008001918       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001918                UART_GetInstance
  .text.UART_GetDefaultConfig
-                0x0000000008001954       0x28 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001954                UART_GetDefaultConfig
+                0x0000000008001950       0x28 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001950                UART_GetDefaultConfig
  .text.UART_SetBaudRate
-                0x000000000800197c      0x13c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x000000000800197c                UART_SetBaudRate
+                0x0000000008001978      0x13c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001978                UART_SetBaudRate
  .text.UART_Init
-                0x0000000008001ab8      0x154 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001ab8                UART_Init
+                0x0000000008001ab4      0x154 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001ab4                UART_Init
  .text.UART_WriteBlocking
-                0x0000000008001c0c       0x22 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001c0c                UART_WriteBlocking
+                0x0000000008001c08       0x22 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001c08                UART_WriteBlocking
  .text.UART_ReadBlocking
-                0x0000000008001c2e       0x66 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001c2e                UART_ReadBlocking
+                0x0000000008001c2a       0x66 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001c2a                UART_ReadBlocking
  .text.UART1_DriverIRQHandler
-                0x0000000008001c94       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001c94                UART1_DriverIRQHandler
+                0x0000000008001c90       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001c90                UART1_DriverIRQHandler
  .text.UART2_DriverIRQHandler
-                0x0000000008001cb4       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001cb4                UART2_DriverIRQHandler
+                0x0000000008001cb0       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001cb0                UART2_DriverIRQHandler
  .text.UART3_DriverIRQHandler
-                0x0000000008001cd4       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001cd4                UART3_DriverIRQHandler
+                0x0000000008001cd0       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001cd0                UART3_DriverIRQHandler
  .text.UART4_DriverIRQHandler
-                0x0000000008001cf4       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000000008001cf4                UART4_DriverIRQHandler
+                0x0000000008001cf0       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001cf0                UART4_DriverIRQHandler
  .text.RDC_SetMasterDomainAssignment
-                0x0000000008001d14        0xa CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
-                0x0000000008001d14                RDC_SetMasterDomainAssignment
- *fill*         0x0000000008001d1e        0x2 
+                0x0000000008001d10        0xa CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000008001d10                RDC_SetMasterDomainAssignment
+ *fill*         0x0000000008001d1a        0x2 
  .text.DbgConsole_Putchar
-                0x0000000008001d20       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x0000000008001d20                DbgConsole_Putchar
+                0x0000000008001d1c       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001d1c                DbgConsole_Putchar
  .text.DbgConsole_ConvertRadixNumToString.constprop.0
-                0x0000000008001d44       0x48 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001d40       0x48 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_Init
-                0x0000000008001d8c       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x0000000008001d8c                DbgConsole_Init
+                0x0000000008001d88       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001d88                DbgConsole_Init
  .text.DbgConsole_Vprintf
-                0x0000000008001ddc      0x1f4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x0000000008001ddc                DbgConsole_Vprintf
+                0x0000000008001dd8      0x1f4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001dd8                DbgConsole_Vprintf
  .text.DbgConsole_Printf
-                0x0000000008001fd0       0x1a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x0000000008001fd0                DbgConsole_Printf
- *fill*         0x0000000008001fea        0x2 
- .text.exit     0x0000000008001fec       0x28 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
-                0x0000000008001fec                exit
+                0x0000000008001fcc       0x1a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001fcc                DbgConsole_Printf
+ *fill*         0x0000000008001fe6        0x2 
+ .text.exit     0x0000000008001fe8       0x28 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                0x0000000008001fe8                exit
  .text.__libc_init_array
-                0x0000000008002014       0x48 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
-                0x0000000008002014                __libc_init_array
- .text.memset   0x000000000800205c       0x10 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
-                0x000000000800205c                memset
- .text._exit    0x000000000800206c        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
-                0x000000000800206c                _exit
+                0x0000000008002010       0x48 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x0000000008002010                __libc_init_array
+ .text.memset   0x0000000008002058       0x10 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x0000000008002058                memset
+ .text._exit    0x0000000008002068        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                0x0000000008002068                _exit
  *(.rodata)
  *(.rodata*)
  .rodata.GPIO5_Combined_0_15_IRQHandler.str1.1
-                0x0000000008002070       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+                0x000000000800206c       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
  .rodata.main.str1.1
-                0x0000000008002080       0x17 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
- *fill*         0x0000000008002097        0x1 
+                0x000000000800207c       0x23 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+ *fill*         0x000000000800209f        0x1 
  .rodata.g_audioPll1Config
-                0x0000000008002098       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
-                0x0000000008002098                g_audioPll1Config
+                0x00000000080020a0       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x00000000080020a0                g_audioPll1Config
  .rodata.g_audioPll2Config
-                0x00000000080020a8       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
-                0x00000000080020a8                g_audioPll2Config
+                0x00000000080020b0       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x00000000080020b0                g_audioPll2Config
  .rodata.g_saiPLLConfig
-                0x00000000080020b8       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
-                0x00000000080020b8                g_saiPLLConfig
+                0x00000000080020c0       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x00000000080020c0                g_saiPLLConfig
  .rodata.s_UartAdapterBase
-                0x00000000080020c8       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x00000000080020d0       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .rodata.s_gpioClock
-                0x00000000080020dc       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x00000000080020e4       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
  .rodata.CSWTCH.36
-                0x00000000080020f4        0x6 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00000000080020fa        0x2 
+                0x00000000080020fc        0x6 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x0000000008002102        0x2 
  .rodata.s_uartClock
-                0x00000000080020fc       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008002104       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata._global_impure_ptr
-                0x0000000008002110        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
-                0x0000000008002110                _global_impure_ptr
+                0x0000000008002118        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                0x0000000008002118                _global_impure_ptr
  *(.glue_7)
- .glue_7        0x0000000008002114        0x0 linker stubs
+ .glue_7        0x000000000800211c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008002114        0x0 linker stubs
+ .glue_7t       0x000000000800211c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008002114        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x000000000800211c        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0000000008002114        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008002114                _init
- .init          0x0000000008002118        0x8 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x000000000800211c        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000800211c                _init
+ .init          0x0000000008002120        0x8 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0000000008002120        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008002120                _fini
- .fini          0x0000000008002124        0x8 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x000000000800212c                . = ALIGN (0x4)
+ .fini          0x0000000008002128        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008002128                _fini
+ .fini          0x000000000800212c        0x8 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008002134                . = ALIGN (0x4)
 
-.vfp11_veneer   0x000000000800212c        0x0
- .vfp11_veneer  0x000000000800212c        0x0 linker stubs
+.vfp11_veneer   0x0000000008002134        0x0
+ .vfp11_veneer  0x0000000008002134        0x0 linker stubs
 
-.v4_bx          0x000000000800212c        0x0
- .v4_bx         0x000000000800212c        0x0 linker stubs
+.v4_bx          0x0000000008002134        0x0
+ .v4_bx         0x0000000008002134        0x0 linker stubs
 
-.iplt           0x000000000800212c        0x0
- .iplt          0x000000000800212c        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0000000008002134        0x0
+ .iplt          0x0000000008002134        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000000000800212c        0x8
-                0x000000000800212c                __exidx_start = .
+.ARM            0x0000000008002134        0x8
+                0x0000000008002134                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000000000800212c        0x8 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x0000000008002134        0x8 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
                                          0x10 (size before relaxing)
- .ARM.exidx     0x0000000008002134        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x000000000800213c        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
                                           0x8 (size before relaxing)
-                0x0000000008002134                __exidx_end = .
+                0x000000000800213c                __exidx_end = .
 
-.rel.dyn        0x0000000008002134        0x0
- .rel.iplt      0x0000000008002134        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x000000000800213c        0x0
+ .rel.iplt      0x000000000800213c        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ctors          0x0000000008002134        0x0
-                0x0000000008002134                __CTOR_LIST__ = .
+.ctors          0x000000000800213c        0x0
+                0x000000000800213c                __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x0000000008002134                __CTOR_END__ = .
+                0x000000000800213c                __CTOR_END__ = .
 
-.dtors          0x0000000008002134        0x0
-                0x0000000008002134                __DTOR_LIST__ = .
+.dtors          0x000000000800213c        0x0
+                0x000000000800213c                __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x0000000008002134                __DTOR_END__ = .
+                0x000000000800213c                __DTOR_END__ = .
 
-.preinit_array  0x0000000008002134        0x0
-                0x0000000008002134                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800213c        0x0
+                0x000000000800213c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008002134                PROVIDE (__preinit_array_end = .)
+                0x000000000800213c                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008002134        0x4
-                0x0000000008002134                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800213c        0x4
+                0x000000000800213c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008002134        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x0000000008002138                PROVIDE (__init_array_end = .)
+ .init_array    0x000000000800213c        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008002140                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008002138        0x4
+.fini_array     0x0000000008002140        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008002138        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x0000000008002140        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800213c                __etext = .
-                0x000000000800213c                __DATA_ROM = .
+                0x0000000008002144                __etext = .
+                0x0000000008002144                __DATA_ROM = .
 
-.data           0x0000000020000000       0x64 load address 0x000000000800213c
+.data           0x0000000020000000       0x64 load address 0x0000000008002144
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                __DATA_RAM = .
                 0x0000000020000000                __data_start__ = .
@@ -1183,12 +1183,12 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000020000064                __data_end__ = .
                 0x0000000008000000                __CACHE_REGION_START = ORIGIN (m_interrupts)
                 0x0000000000000000                __CACHE_REGION_SIZE = 0x0
-                0x00000000080021a0                __NDATA_ROM = (__DATA_ROM + SIZEOF (.data))
+                0x00000000080021a8                __NDATA_ROM = (__DATA_ROM + SIZEOF (.data))
 
-.igot.plt       0x0000000020000064        0x0 load address 0x00000000080021a0
+.igot.plt       0x0000000020000064        0x0 load address 0x00000000080021a8
  .igot.plt      0x0000000020000064        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ncache.init    0x0000000080000000        0x0 load address 0x00000000080021a0
+.ncache.init    0x0000000080000000        0x0 load address 0x00000000080021a8
                 0x0000000080000000                __noncachedata_start__ = .
  *(NonCacheable.init)
                 0x0000000080000000                . = ALIGN (0x4)
@@ -1199,11 +1199,11 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
  *(NonCacheable)
                 0x0000000080000000                . = ALIGN (0x4)
                 0x0000000080000000                __noncachedata_end__ = .
-                0x00000000080021a0                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00000000080021a8                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x0000000008100000                text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x0000000000000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
-.bss            0x0000000020000064       0x48 load address 0x00000000080021a0
+.bss            0x0000000020000064       0x48 load address 0x00000000080021a8
                 0x0000000020000064                . = ALIGN (0x4)
                 0x0000000020000064                __START_BSS = .
                 0x0000000020000064                __bss_start__ = .
@@ -1223,7 +1223,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x00000000200000ac                __bss_end__ = .
                 0x00000000200000ac                __END_BSS = .
 
-.heap           0x00000000200000ac      0x404 load address 0x00000000080021e8
+.heap           0x00000000200000ac      0x404 load address 0x00000000080021f0
                 0x00000000200000b0                . = ALIGN (0x8)
  *fill*         0x00000000200000ac        0x4 
                 0x00000000200000b0                __end__ = .
@@ -1234,7 +1234,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x00000000200004b0                __HeapLimit = .
                 0x00000000200004b0                __heap_limit = .
 
-.stack          0x00000000200004b0      0x400 load address 0x00000000080025ec
+.stack          0x00000000200004b0      0x400 load address 0x00000000080025f4
                 0x00000000200004b0                . = ALIGN (0x8)
                 0x00000000200008b0                . = (. + STACK_SIZE)
  *fill*         0x00000000200004b0      0x400 

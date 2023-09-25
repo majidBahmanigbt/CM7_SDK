@@ -184,10 +184,16 @@ volatile bool g_pinSet = false;
 
 void TEST_IRQ_HANDLER(){
 
+    // SDK_DelayAtLeastUs(20, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
+    // PRINTF("Interrupt: %d\r\n" , TEST_IRQ_TYPE); 
+    // GPIO_PortClearInterruptFlags(TEST_IRQ_GPIO , TEST_IRQ_PIN);
+    // GPIO_PortEnableInterrupts(TEST_IRQ_GPIO, 1U << TEST_IRQ_PIN);
+
     SDK_DelayAtLeastUs(20, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
-    PRINTF("Interrupt: %d\r\n" , TEST_IRQ_TYPE); 
+    PRINTF("Interrupt: %d\r\n" , TEST_IRQ_TYPE);
     GPIO_PortClearInterruptFlags(TEST_IRQ_GPIO , TEST_IRQ_PIN);
-    GPIO_PortEnableInterrupts(TEST_IRQ_GPIO, 1U << TEST_IRQ_PIN);
+    //GPIO_PortEnableInterrupts(TEST_IRQ_GPIO, 1U << TEST_IRQ_PIN);
+    __DSB();
 
 }
 
@@ -213,7 +219,7 @@ int main(void)
     BOARD_BootClockRUN();
     BOARD_InitDebugConsole();
 
-    PRINTF("\r\n Test Interrupt %d\r\n" , TEST_IRQ_TYPE);
+    PRINTF("\r\n Test Interrupt %d: 2023/09/25\r\n" , TEST_IRQ_TYPE);
     GPIO_PinSetInterruptConfig(TEST_IRQ_GPIO , TEST_IRQ_PIN , kGPIO_IntRisingOrFallingEdge);
     // GPIO_PinInit(TEST_IRQ_GPIO , TEST_IRQ_PIN , &output_config);
     GPIO_PinInit(TEST_IRQ_GPIO , TEST_IRQ_PIN , &exi_config);
