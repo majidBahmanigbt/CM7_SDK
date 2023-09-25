@@ -18,6 +18,9 @@
 #define EXAMPLE_LED_GPIO     GPIO3
 #define EXAMPLE_LED_GPIO_PIN 16U
 
+#define TEST_GPIO     GPIO5
+#define TEST_GPIO_PIN 8U
+
 /*******************************************************************************
  * Prototypes
  ******************************************************************************/
@@ -37,6 +40,7 @@ int main(void)
 {
     /* Define the init structure for the output LED pin*/
     gpio_pin_config_t led_config = {kGPIO_DigitalOutput, 0, kGPIO_NoIntmode};
+    gpio_pin_config_t test_config = {kGPIO_DigitalOutput, 0, kGPIO_NoIntmode};
 
     /* Board pin, clock, debug console init */
     /* M7 has its local cache and enabled by default,
@@ -57,20 +61,24 @@ int main(void)
 
     /* Init output LED GPIO. */
     GPIO_PinInit(EXAMPLE_LED_GPIO, EXAMPLE_LED_GPIO_PIN, &led_config);
+    GPIO_PinInit(TEST_GPIO, TEST_GPIO_PIN, &test_config);
 
     while (1)
     {
-        SDK_DelayAtLeastUs(100000, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
+        PRINTF("\r\n TESTING GPIO 5 \r\n");
+        SDK_DelayAtLeastUs(1000000, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
 #if (defined(FSL_FEATURE_IGPIO_HAS_DR_TOGGLE) && (FSL_FEATURE_IGPIO_HAS_DR_TOGGLE == 1))
         GPIO_PortToggle(EXAMPLE_LED_GPIO, 1u << EXAMPLE_LED_GPIO_PIN);
 #else
         if (g_pinSet)
         {
+            GPIO_PinWrite(TEST_GPIO, TEST_GPIO_PIN, 0U);
             GPIO_PinWrite(EXAMPLE_LED_GPIO, EXAMPLE_LED_GPIO_PIN, 0U);
             g_pinSet = false;
         }
         else
         {
+            GPIO_PinWrite(TEST_GPIO, TEST_GPIO_PIN, 1U);
             GPIO_PinWrite(EXAMPLE_LED_GPIO, EXAMPLE_LED_GPIO_PIN, 1U);
             g_pinSet = true;
         }

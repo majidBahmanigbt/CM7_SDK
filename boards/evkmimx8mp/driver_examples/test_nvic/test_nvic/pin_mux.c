@@ -173,7 +173,43 @@ void BOARD_InitPins(void) {                                /*!< Function assigne
                         IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
                         IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
                         IOMUXC_SW_PAD_CTL_PAD_PE_MASK); 
-                        
+
+
+#elif defined IRQ_70
+
+    IOMUXC_SetPinMux(IOMUXC_SAI1_RXFS_GPIO4_IO00, 1U); 
+    IOMUXC_SetPinConfig(IOMUXC_SAI1_RXFS_GPIO4_IO00, 
+                        IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK); 
+
+
+#elif defined IRQ_71
+
+    IOMUXC_SetPinMux(IOMUXC_SAI1_TXD4_GPIO4_IO16, 1U); 
+    IOMUXC_SetPinConfig(IOMUXC_SAI1_TXD4_GPIO4_IO16, 
+                        IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK); 
+
+
+#elif defined IRQ_72
+
+    IOMUXC_SetPinMux(IOMUXC_ECSPI1_MISO_GPIO5_IO08, 1U); 
+    IOMUXC_SetPinConfig(IOMUXC_ECSPI1_MISO_GPIO5_IO08, 
+                        IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK); 
+
+
+#elif defined IRQ_73
+
+    IOMUXC_SetPinMux(IOMUXC_I2C2_SCL_GPIO5_IO16, 1U); 
+    IOMUXC_SetPinConfig(IOMUXC_I2C2_SCL_GPIO5_IO16, 
+                        IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK); 
+
 #endif    
 
     IOMUXC_SetPinMux(IOMUXC_UART4_RXD_UART4_RX, 0U);

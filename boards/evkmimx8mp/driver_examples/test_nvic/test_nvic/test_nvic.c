@@ -131,6 +131,41 @@
     #define TEST_IRQ_TYPE    GPIO3_Combined_16_31_IRQn
     #define TEST_IRQ_HANDLER GPIO3_Combined_16_31_IRQHandler
 
+#elif defined IRQ_70  // GPIO4  00-15
+
+    #define TEST_IRQ_GPIO    GPIO4
+    #define TEST_IRQ_PIN     0U
+
+    #define TEST_IRQ_TYPE    GPIO4_Combined_0_15_IRQn
+    #define TEST_IRQ_HANDLER GPIO4_Combined_0_15_IRQHandler
+
+
+#elif defined IRQ_71  // GPIO4  16-31
+
+    #define TEST_IRQ_GPIO    GPIO4
+    #define TEST_IRQ_PIN     16U
+
+    #define TEST_IRQ_TYPE    GPIO4_Combined_16_31_IRQn
+    #define TEST_IRQ_HANDLER GPIO4_Combined_16_31_IRQHandler
+
+
+#elif defined IRQ_72  // GPIO5  00-15
+
+    #define TEST_IRQ_GPIO    GPIO5
+    #define TEST_IRQ_PIN     8U
+
+    #define TEST_IRQ_TYPE    GPIO5_Combined_0_15_IRQn
+    #define TEST_IRQ_HANDLER GPIO5_Combined_0_15_IRQHandler
+
+
+#elif defined IRQ_73  // GPIO5  16-31
+
+    #define TEST_IRQ_GPIO    GPIO5
+    #define TEST_IRQ_PIN     16U
+
+    #define TEST_IRQ_TYPE    GPIO5_Combined_16_31_IRQn
+    #define TEST_IRQ_HANDLER GPIO5_Combined_16_31_IRQHandler        
+
 #endif
 
 

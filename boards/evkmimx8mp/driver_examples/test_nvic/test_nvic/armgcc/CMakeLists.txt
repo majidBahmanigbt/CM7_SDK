@@ -30,11 +30,11 @@ SET(EXECUTABLE_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 SET(LIBRARY_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 
 
-project(igpio_led_output)
+project(test_nvic)
 
 set(MCUX_BUILD_TYPES debug release ddr_debug ddr_release flash_debug flash_release)
 
-set(MCUX_SDK_PROJECT_NAME igpio_led_output.elf)
+set(MCUX_SDK_PROJECT_NAME test_nvic.elf)
 
 if (NOT DEFINED SdkRootDirPath)
     SET(SdkRootDirPath ${ProjDirPath}/../../../../../..)
@@ -74,7 +74,7 @@ target_link_libraries(${MCUX_SDK_PROJECT_NAME} PRIVATE ${TARGET_LINK_SYSTEM_LIBR
 TARGET_LINK_LIBRARIES(${MCUX_SDK_PROJECT_NAME} PRIVATE -Wl,--end-group)
 
 ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME} POST_BUILD COMMAND ${CMAKE_OBJCOPY}
--Obinary ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/igpio_led_output.bin)
+-Obinary ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/test_nvic.bin)
 
 set_target_properties(${MCUX_SDK_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES "output.map;${EXECUTABLE_OUTPUT_PATH}/test_nvic.bin")
 

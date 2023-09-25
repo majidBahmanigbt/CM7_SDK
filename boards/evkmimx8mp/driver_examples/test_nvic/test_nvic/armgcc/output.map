@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
-                              CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj (__errno)
+                              CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj (__errno)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
                               /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
@@ -9,7 +9,7 @@ Archive member included to satisfy reference by file (symbol)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
                               /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
-                              CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj (malloc)
+                              CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj (malloc)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
                               /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
@@ -19,9 +19,9 @@ Archive member included to satisfy reference by file (symbol)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
                               /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
-                              CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj (strlen)
+                              CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj (strlen)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtoul.o)
-                              CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj (strtoul)
+                              CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj (strtoul)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-ctype_.o)
                               /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strtoul.o) (_ctype_)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
@@ -31,9 +31,9 @@ Archive member included to satisfy reference by file (symbol)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
                               /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
-                              CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj (__aeabi_ldivmod)
+                              CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj (__aeabi_ldivmod)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
-                              CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj (__aeabi_uldivmod)
+                              CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj (__aeabi_uldivmod)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
                               /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
@@ -51,278 +51,278 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .bss           0x0000000000000000        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .ARM.extab     0x0000000000000000        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
- .bss.g_pinSet  0x0000000000000000        0x1 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+ .bss.g_pinSet  0x0000000000000000        0x1 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
  .rodata.g_sysPll1Config
-                0x0000000000000000        0xc CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x0000000000000000        0xc CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
  .rodata.g_sysPll2Config
-                0x0000000000000000        0xc CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x0000000000000000        0xc CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
  .rodata.g_sysPll3Config
-                0x0000000000000000        0xc CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000000000000        0xc CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .text.HAL_UartDeinit
-                0x0000000000000000       0x18 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000000000000       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .text.HAL_UartEnterLowpower
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .text.HAL_UartExitLowpower
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_Init
-                0x0000000000000000        0xc CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0xc CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_GetList
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_AddTail
-                0x0000000000000000       0x36 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000       0x36 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_AddHead
-                0x0000000000000000       0x30 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000       0x30 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_RemoveHead
-                0x0000000000000000       0x2a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000       0x2a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_GetHead
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_GetNext
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_GetPrev
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_RemoveElement
-                0x0000000000000000       0x40 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000       0x40 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_AddPrevElement
-                0x0000000000000000       0x52 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000       0x52 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_GetSize
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .text.LIST_GetAvailableSize
-                0x0000000000000000        0x8 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+                0x0000000000000000        0x8 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
  .ARM.attributes
-                0x0000000000000000       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x0000000000000000       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
  .text.AUDIOMIX_AttachClk
-                0x0000000000000000       0x16 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x0000000000000000       0x16 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
  .text.AUDIOMIX_DeinitAudioPll1
-                0x0000000000000000        0xe CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x0000000000000000        0xe CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
  .text.AUDIOMIX_GetAudioPllFreq
-                0x0000000000000000       0x40 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x40 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DeinitArmPll
-                0x0000000000000000       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DeinitAudioPll1
-                0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DeinitAudioPll2
-                0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DeinitVideoPll1
-                0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DeinitSysPll1
-                0x0000000000000000       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DeinitSysPll2
-                0x0000000000000000       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DeinitSysPll3
-                0x0000000000000000       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_InitVideoPll1
-                0x0000000000000000       0x2c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_InitIntegerPll
-                0x0000000000000000       0x50 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_InitArmPll
-                0x0000000000000000       0x38 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_InitSysPll1
-                0x0000000000000000       0x38 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_InitSysPll2
-                0x0000000000000000       0x38 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_InitSysPll3
-                0x0000000000000000       0x38 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_GetCoreM7Freq
-                0x0000000000000000       0x8c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x8c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_GetAxiFreq
-                0x0000000000000000       0x88 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x88 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_GetAhbFreq
-                0x0000000000000000       0x88 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x88 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_GetEnetAxiFreq
-                0x0000000000000000       0x8c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x8c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_GetFreq
-                0x0000000000000000      0x12c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000      0x12c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_GetClockRootFreq
-                0x0000000000000000       0x64 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x64 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_UpdateRoot
-                0x0000000000000000       0x2c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_DisableClock
-                0x0000000000000000       0x50 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.clockRootControlArray.1
-                0x0000000000000000       0xec CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000000000000       0xec CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.clockRootSourceArray.0
-                0x0000000000000000      0x1d8 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+                0x0000000000000000      0x1d8 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
  .text.SDK_Malloc
-                0x0000000000000000       0x42 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+                0x0000000000000000       0x42 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
  .text.SDK_Free
-                0x0000000000000000       0x18 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+                0x0000000000000000       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
  .ARM.attributes
-                0x0000000000000000       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+                0x0000000000000000       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
  .text.MSDK_EnableCpuCycleCounter
-                0x0000000000000000       0x30 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+                0x0000000000000000       0x30 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
  .text.MSDK_GetCpuCycleCount
-                0x0000000000000000        0xc CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000        0xc CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferGetRxRingBufferLength
-                0x0000000000000000       0x26 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x26 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferIsRxRingBufferFull
-                0x0000000000000000       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_Deinit
-                0x0000000000000000       0x2c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_EnableInterrupts
-                0x0000000000000000      0x108 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000      0x108 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_DisableInterrupts
-                0x0000000000000000      0x110 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000      0x110 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferHandleIRQ
-                0x0000000000000000      0x370 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000      0x370 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_GetEnabledInterrupts
-                0x0000000000000000      0x19a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000      0x19a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_GetStatusFlag
-                0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_ClearStatusFlag
-                0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferCreateHandle
-                0x0000000000000000       0x68 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x68 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferStartRingBuffer
-                0x0000000000000000       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferStopRingBuffer
-                0x0000000000000000       0x24 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferSendNonBlocking
-                0x0000000000000000       0x2e CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x2e CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferAbortSend
-                0x0000000000000000       0x16 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x16 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferGetSendCount
-                0x0000000000000000       0x16 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x16 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferReceiveNonBlocking
-                0x0000000000000000       0xd4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0xd4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferAbortReceive
-                0x0000000000000000       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_TransferGetReceiveCount
-                0x0000000000000000       0x1e CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000000000000       0x1e CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.s_uartIRQ
-                0x0000000000000000        0xa CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000        0xa CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_GetInstance
-                0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_Init
-                0x0000000000000000        0xc CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000        0xc CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_Deinit
-                0x0000000000000000        0xc CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000        0xc CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_GetHardwareConfig
-                0x0000000000000000        0x6 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000        0x6 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_GetDefaultMasterDomainAssignment
-                0x0000000000000000        0x6 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000        0x6 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_SetPeriphAccessConfig
-                0x0000000000000000       0x24 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_GetDefaultPeriphAccessConfig
-                0x0000000000000000       0x18 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_SetMemAccessConfig
-                0x0000000000000000       0x3e CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000       0x3e CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_GetDefaultMemAccessConfig
-                0x0000000000000000       0x22 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000000000000       0x22 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .text.RDC_GetMemViolationStatus
-                0x0000000000000000       0x24 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
- .text._sbrk    0x0000000000000000       0x38 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+                0x0000000000000000       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+ .text._sbrk    0x0000000000000000       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
  .bss.heap_end.0
-                0x0000000000000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+                0x0000000000000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
  .ARM.attributes
-                0x0000000000000000       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._write   0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._read    0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._close   0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._lseek   0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._fstat   0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._getpid  0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._isatty  0x0000000000000000        0xe CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._kill    0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._link    0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._unlink  0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._open    0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .text._stat    0x0000000000000000       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+                0x0000000000000000       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._write   0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._read    0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._close   0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._lseek   0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._fstat   0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._getpid  0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._isatty  0x0000000000000000        0xe CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._kill    0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._link    0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._unlink  0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._open    0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .text._stat    0x0000000000000000       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
  .ARM.attributes
-                0x0000000000000000       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+                0x0000000000000000       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
  .ARM.attributes
-                0x0000000000000000       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+                0x0000000000000000       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
  .text.ScanIsWhiteSpace
-                0x0000000000000000       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+                0x0000000000000000       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
  .text.ScanIgnoreWhiteSpace
-                0x0000000000000000       0x22 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+                0x0000000000000000       0x22 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
  .text.ConvertRadixNumToString.constprop.0
-                0x0000000000000000       0x48 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+                0x0000000000000000       0x48 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
  .text.StrFormatPrintf
-                0x0000000000000000      0x1c8 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+                0x0000000000000000      0x1c8 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
  .text.StrFormatScanf
-                0x0000000000000000      0x23e CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+                0x0000000000000000      0x23e CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
  .ARM.attributes
-                0x0000000000000000       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000000000000       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_Deinit
-                0x0000000000000000       0x1c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000000000000       0x1c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_EnterLowpower
-                0x0000000000000000       0x1c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000000000000       0x1c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_ExitLowpower
-                0x0000000000000000       0x1c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000000000000       0x1c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_Getchar
-                0x0000000000000000       0x2c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000000000000       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_Scanf
-                0x0000000000000000       0x6c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000000000000       0x6c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text          0x0000000000000000        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
  .data          0x0000000000000000        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
  .bss           0x0000000000000000        0x0 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
@@ -509,28 +509,28 @@ Linker script and memory map
 LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
 LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
-LOAD CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+LOAD CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
 START GROUP
 LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
@@ -561,7 +561,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000008000000                __Vectors = .
                 0x0000000008000000                . = ALIGN (0x4)
  *(.isr_vector)
- .isr_vector    0x0000000008000000      0x2a8 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .isr_vector    0x0000000008000000      0x2a8 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
                 0x0000000008000000                __isr_vector
                 0x00000000080002a8                . = ALIGN (0x4)
 
@@ -570,7 +570,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000008000400                . = ALIGN (0x8)
  *(.resource_table)
  .resource_table
-                0x0000000008000400       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+                0x0000000008000400       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
                 0x0000000008000400                resource_table
                 0x0000000008000410                . = ALIGN (0x8)
 
@@ -582,7 +582,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000008000450                _stack_init
                 0x0000000008000458                _mainCRTStartup
                 0x0000000008000458                _start
- .text          0x00000000080004cc      0x588 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .text          0x00000000080004cc      0x588 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
                 0x00000000080004cc                Reset_Handler
                 0x0000000008000558                VPU_G2_DriverIRQHandler
                 0x0000000008000558                PWM2_DriverIRQHandler
@@ -813,9 +813,9 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000008000678                GPIO2_Combined_0_15_IRQHandler
                 0x000000000800067c                GPIO2_Combined_16_31_IRQHandler
                 0x0000000008000680                GPIO3_Combined_0_15_IRQHandler
+                0x0000000008000684                GPIO3_Combined_16_31_IRQHandler
                 0x0000000008000688                GPIO4_Combined_0_15_IRQHandler
                 0x000000000800068c                GPIO4_Combined_16_31_IRQHandler
-                0x0000000008000690                GPIO5_Combined_0_15_IRQHandler
                 0x0000000008000694                GPIO5_Combined_16_31_IRQHandler
                 0x0000000008000698                ISP1_IRQHandler
                 0x000000000800069c                ISP2_IRQHandler
@@ -897,7 +897,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x00000000080007cc                MECC_ERR_IRQHandler
                 0x00000000080007d0                MECC_S_IRQHandler
                 0x00000000080007d4                MECC_S_ERR_IRQHandler
- .text          0x0000000008000a54       0xa0 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+ .text          0x0000000008000a54       0xa0 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
                 0x0000000008000a54                memcpy
  .text          0x0000000008000af4       0x10 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
                 0x0000000008000af4                strlen
@@ -909,146 +909,146 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x0000000008000e04                __aeabi_ldiv0
                 0x0000000008000e04                __aeabi_idiv0
  *(.text*)
- .text.GPIO3_Combined_16_31_IRQHandler
-                0x0000000008000e08       0x30 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
-                0x0000000008000e08                GPIO3_Combined_16_31_IRQHandler
+ .text.GPIO5_Combined_0_15_IRQHandler
+                0x0000000008000e08       0x30 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+                0x0000000008000e08                GPIO5_Combined_0_15_IRQHandler
  .text.startup.main
-                0x0000000008000e38       0x68 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+                0x0000000008000e38       0x68 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
                 0x0000000008000e38                main
  .text.BOARD_InitPins
-                0x0000000008000ea0       0x30 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+                0x0000000008000ea0       0x30 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
                 0x0000000008000ea0                BOARD_InitPins
  .text.BOARD_InitBootPins
-                0x0000000008000ed0        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+                0x0000000008000ed0        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
                 0x0000000008000ed0                BOARD_InitBootPins
  .text.BOARD_InitDebugConsole
-                0x0000000008000ed4       0x44 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+                0x0000000008000ed4       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
                 0x0000000008000ed4                BOARD_InitDebugConsole
  .text.BOARD_InitMemory
-                0x0000000008000f18      0x204 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+                0x0000000008000f18      0x204 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
                 0x0000000008000f18                BOARD_InitMemory
  .text.BOARD_RdcInit
-                0x000000000800111c       0x90 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+                0x000000000800111c       0x90 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
                 0x000000000800111c                BOARD_RdcInit
  .text.BOARD_BootClockRUN
-                0x00000000080011ac      0x16c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x00000000080011ac      0x16c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
                 0x00000000080011ac                BOARD_BootClockRUN
  .text.HAL_UartInit
-                0x0000000008001318       0x6c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000008001318       0x6c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
                 0x0000000008001318                HAL_UartInit
  .text.HAL_UartReceiveBlocking
-                0x0000000008001384       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000008001384       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
                 0x0000000008001384                HAL_UartReceiveBlocking
  .text.HAL_UartSendBlocking
-                0x00000000080013a4       0x18 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x00000000080013a4       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
                 0x00000000080013a4                HAL_UartSendBlocking
  .text.GetFracPllFreq
-                0x00000000080013bc       0x44 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000080013bc       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
                 0x00000000080013bc                GetFracPllFreq
  .text.GetIntegerPllFreq
-                0x0000000008001400       0x44 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x0000000008001400       0x44 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
                 0x0000000008001400                GetIntegerPllFreq
  .text.SystemCoreClockUpdate
-                0x0000000008001444       0x9c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x0000000008001444       0x9c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
                 0x0000000008001444                SystemCoreClockUpdate
  .text.SystemInitHook
-                0x00000000080014e0        0x2 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000080014e0        0x2 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
                 0x00000000080014e0                SystemInitHook
  *fill*         0x00000000080014e2        0x2 
  .text.SystemInit
-                0x00000000080014e4       0x1c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000080014e4       0x1c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
                 0x00000000080014e4                SystemInit
  .text.AUDIOMIX_InitAudioPll
-                0x0000000008001500       0x64 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x0000000008001500       0x64 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
                 0x0000000008001500                AUDIOMIX_InitAudioPll
  .text.CLOCK_GetPllRefClkFreq
-                0x0000000008001564       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001564       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x0000000008001564                CLOCK_GetPllRefClkFreq
  .text.CLOCK_InitFracPll
-                0x0000000008001584       0x54 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001584       0x54 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x0000000008001584                CLOCK_InitFracPll
  .text.CLOCK_InitAudioPll1
-                0x00000000080015d8       0x28 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00000000080015d8       0x28 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x00000000080015d8                CLOCK_InitAudioPll1
  .text.CLOCK_InitAudioPll2
-                0x0000000008001600       0x2c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001600       0x2c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x0000000008001600                CLOCK_InitAudioPll2
  .text.CLOCK_GetFracPllFreq
-                0x000000000800162c       0x40 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x000000000800162c       0x40 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x000000000800162c                CLOCK_GetFracPllFreq
  .text.CLOCK_GetIntegerPllFreq
-                0x000000000800166c       0x36 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x000000000800166c       0x36 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x000000000800166c                CLOCK_GetIntegerPllFreq
  *fill*         0x00000000080016a2        0x2 
  .text.CLOCK_GetPllFreq
-                0x00000000080016a4       0xb4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00000000080016a4       0xb4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x00000000080016a4                CLOCK_GetPllFreq
  .text.CLOCK_SetRootDivider
-                0x0000000008001758       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001758       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x0000000008001758                CLOCK_SetRootDivider
  .text.CLOCK_EnableClock
-                0x0000000008001778       0x50 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000000008001778       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
                 0x0000000008001778                CLOCK_EnableClock
  .text.SDK_DelayAtLeastUs
-                0x00000000080017c8       0x24 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+                0x00000000080017c8       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
                 0x00000000080017c8                SDK_DelayAtLeastUs
  .text.GPIO_PinWrite
-                0x00000000080017ec       0x16 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x00000000080017ec       0x16 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
                 0x00000000080017ec                GPIO_PinWrite
  .text.GPIO_PinSetInterruptConfig
-                0x0000000008001802       0x7c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x0000000008001802       0x7c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
                 0x0000000008001802                GPIO_PinSetInterruptConfig
  *fill*         0x000000000800187e        0x2 
  .text.GPIO_PinInit
-                0x0000000008001880       0x9c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x0000000008001880       0x9c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
                 0x0000000008001880                GPIO_PinInit
  .text.UART_GetInstance
-                0x000000000800191c       0x38 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000000000800191c       0x38 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x000000000800191c                UART_GetInstance
  .text.UART_GetDefaultConfig
-                0x0000000008001954       0x28 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001954       0x28 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001954                UART_GetDefaultConfig
  .text.UART_SetBaudRate
-                0x000000000800197c      0x13c CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000000000800197c      0x13c CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x000000000800197c                UART_SetBaudRate
  .text.UART_Init
-                0x0000000008001ab8      0x154 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001ab8      0x154 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001ab8                UART_Init
  .text.UART_WriteBlocking
-                0x0000000008001c0c       0x22 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001c0c       0x22 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001c0c                UART_WriteBlocking
  .text.UART_ReadBlocking
-                0x0000000008001c2e       0x66 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001c2e       0x66 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001c2e                UART_ReadBlocking
  .text.UART1_DriverIRQHandler
-                0x0000000008001c94       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001c94       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001c94                UART1_DriverIRQHandler
  .text.UART2_DriverIRQHandler
-                0x0000000008001cb4       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001cb4       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001cb4                UART2_DriverIRQHandler
  .text.UART3_DriverIRQHandler
-                0x0000000008001cd4       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001cd4       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001cd4                UART3_DriverIRQHandler
  .text.UART4_DriverIRQHandler
-                0x0000000008001cf4       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000008001cf4       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000008001cf4                UART4_DriverIRQHandler
  .text.RDC_SetMasterDomainAssignment
-                0x0000000008001d14        0xa CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x0000000008001d14        0xa CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
                 0x0000000008001d14                RDC_SetMasterDomainAssignment
  *fill*         0x0000000008001d1e        0x2 
  .text.DbgConsole_Putchar
-                0x0000000008001d20       0x24 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001d20       0x24 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
                 0x0000000008001d20                DbgConsole_Putchar
  .text.DbgConsole_ConvertRadixNumToString.constprop.0
-                0x0000000008001d44       0x48 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001d44       0x48 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_Init
-                0x0000000008001d8c       0x50 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001d8c       0x50 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
                 0x0000000008001d8c                DbgConsole_Init
  .text.DbgConsole_Vprintf
-                0x0000000008001ddc      0x1f4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001ddc      0x1f4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
                 0x0000000008001ddc                DbgConsole_Vprintf
  .text.DbgConsole_Printf
-                0x0000000008001fd0       0x1a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000008001fd0       0x1a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
                 0x0000000008001fd0                DbgConsole_Printf
  *fill*         0x0000000008001fea        0x2 
  .text.exit     0x0000000008001fec       0x28 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
@@ -1062,29 +1062,29 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
                 0x000000000800206c                _exit
  *(.rodata)
  *(.rodata*)
- .rodata.GPIO3_Combined_16_31_IRQHandler.str1.1
-                0x0000000008002070       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+ .rodata.GPIO5_Combined_0_15_IRQHandler.str1.1
+                0x0000000008002070       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
  .rodata.main.str1.1
-                0x0000000008002080       0x17 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+                0x0000000008002080       0x17 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
  *fill*         0x0000000008002097        0x1 
  .rodata.g_audioPll1Config
-                0x0000000008002098       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x0000000008002098       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
                 0x0000000008002098                g_audioPll1Config
  .rodata.g_audioPll2Config
-                0x00000000080020a8       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x00000000080020a8       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
                 0x00000000080020a8                g_audioPll2Config
  .rodata.g_saiPLLConfig
-                0x00000000080020b8       0x10 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x00000000080020b8       0x10 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
                 0x00000000080020b8                g_saiPLLConfig
  .rodata.s_UartAdapterBase
-                0x00000000080020c8       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x00000000080020c8       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .rodata.s_gpioClock
-                0x00000000080020dc       0x18 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x00000000080020dc       0x18 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
  .rodata.CSWTCH.36
-                0x00000000080020f4        0x6 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00000000080020f4        0x6 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  *fill*         0x00000000080020fa        0x2 
  .rodata.s_uartClock
-                0x00000000080020fc       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00000000080020fc       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata._global_impure_ptr
                 0x0000000008002110        0x4 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
                 0x0000000008002110                _global_impure_ptr
@@ -1174,7 +1174,7 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
  *(.data)
  *(.data*)
  .data.SystemCoreClock
-                0x0000000020000000        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x0000000020000000        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
                 0x0000000020000000                SystemCoreClock
  .data.impure_data
                 0x0000000020000004       0x60 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
@@ -1211,13 +1211,13 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
  .bss           0x0000000020000064       0x1c /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
  .bss.s_uartHandle
-                0x0000000020000080       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000020000080       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000020000080                s_uartHandle
  .bss.s_uartIsr
-                0x0000000020000094        0x4 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000000020000094        0x4 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
                 0x0000000020000094                s_uartIsr
  .bss.s_debugConsole
-                0x0000000020000098       0x14 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000020000098       0x14 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  *(COMMON)
                 0x00000000200000ac                . = ALIGN (0x4)
                 0x00000000200000ac                __bss_end__ = .
@@ -1252,37 +1252,37 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
  .ARM.attributes
                 0x0000000000000052       0x1c /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .ARM.attributes
-                0x000000000000006e       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+                0x000000000000006e       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
  .ARM.attributes
-                0x00000000000000a2       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+                0x00000000000000a2       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
  .ARM.attributes
-                0x00000000000000d6       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+                0x00000000000000d6       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
  .ARM.attributes
-                0x000000000000010a       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+                0x000000000000010a       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
  .ARM.attributes
-                0x000000000000013e       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+                0x000000000000013e       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
  .ARM.attributes
-                0x0000000000000172       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x0000000000000172       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .ARM.attributes
-                0x00000000000001a6       0x1f CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+                0x00000000000001a6       0x1f CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
  .ARM.attributes
-                0x00000000000001c5       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000000000001c5       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
  .ARM.attributes
-                0x00000000000001f9       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x00000000000001f9       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
  .ARM.attributes
-                0x000000000000022d       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x000000000000022d       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .ARM.attributes
-                0x0000000000000261       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+                0x0000000000000261       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
  .ARM.attributes
-                0x0000000000000295       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+                0x0000000000000295       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
  .ARM.attributes
-                0x00000000000002c9       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00000000000002c9       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .ARM.attributes
-                0x00000000000002fd       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x00000000000002fd       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .ARM.attributes
-                0x0000000000000331       0x20 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+                0x0000000000000331       0x20 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
  .ARM.attributes
-                0x0000000000000351       0x34 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000000000000351       0x34 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .ARM.attributes
                 0x0000000000000385       0x34 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
  .ARM.attributes
@@ -1304,25 +1304,25 @@ LOAD /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/a
  .ARM.attributes
                 0x0000000000000510       0x1e /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
-OUTPUT(flash_release/igpio_led_output.elf elf32-littlearm)
+OUTPUT(flash_release/test_nvic.elf elf32-littlearm)
 LOAD linker stubs
 
 .comment        0x0000000000000000       0x49
- .comment       0x0000000000000000       0x49 CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+ .comment       0x0000000000000000       0x49 CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
                                          0x4a (size before relaxing)
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .comment       0x0000000000000049       0x4a CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .comment       0x0000000000000049       0x4a CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
 
 .debug_frame    0x0000000000000000       0xf4
  .debug_frame   0x0000000000000000       0x28 /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)

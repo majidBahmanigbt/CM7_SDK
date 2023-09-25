@@ -60,6 +60,12 @@ void BOARD_InitPins(void) {                                /*!< Function assigne
     IOMUXC_SetPinConfig(IOMUXC_NAND_READY_B_GPIO3_IO16, 
                         IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
                         IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
+
+    IOMUXC_SetPinMux(IOMUXC_ECSPI1_MISO_GPIO5_IO08, 0U);
+    IOMUXC_SetPinConfig(IOMUXC_ECSPI1_MISO_GPIO5_IO08, 
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
+
     IOMUXC_SetPinMux(IOMUXC_UART4_RXD_UART4_RX, 0U);
     IOMUXC_SetPinConfig(IOMUXC_UART4_RXD_UART4_RX, 
                         IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |

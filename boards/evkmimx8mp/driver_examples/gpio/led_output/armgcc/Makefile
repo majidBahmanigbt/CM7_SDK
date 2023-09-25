@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named igpio_led_output.elf
+# Target rules for targets named gpio_test_pin.elf
 
 # Build rule for target.
-igpio_led_output.elf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 igpio_led_output.elf
-.PHONY : igpio_led_output.elf
+gpio_test_pin.elf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gpio_test_pin.elf
+.PHONY : gpio_test_pin.elf
 
 # fast build rule for target.
-igpio_led_output.elf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/build
-.PHONY : igpio_led_output.elf/fast
+gpio_test_pin.elf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/build
+.PHONY : gpio_test_pin.elf/fast
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.obj
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.i
@@ -142,7 +142,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.s
@@ -150,7 +150,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.obj
@@ -158,7 +158,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.i
@@ -166,7 +166,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.s
@@ -174,7 +174,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/clock_config.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.obj
@@ -182,7 +182,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.i
@@ -190,7 +190,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.s
@@ -198,7 +198,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/empty_rsc_table.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.obj
@@ -206,7 +206,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.i
@@ -214,7 +214,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.s
@@ -222,7 +222,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/gpio_led_output.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.obj
@@ -230,7 +230,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.i
@@ -238,7 +238,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.s
@@ -246,7 +246,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_ou
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/pin_mux.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
@@ -254,7 +254,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.o
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
@@ -262,7 +262,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
@@ -270,7 +270,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
@@ -278,7 +278,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj: home/e
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
@@ -286,7 +286,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i: home/efa
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
@@ -294,7 +294,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s: home/efa
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
@@ -302,7 +302,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj: ho
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
@@ -310,7 +310,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i: home
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
@@ -318,7 +318,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s: home
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
@@ -326,7 +326,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj: home/
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
@@ -334,7 +334,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i: home/ef
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
@@ -342,7 +342,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s: home/ef
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
@@ -350,7 +350,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj: home
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
@@ -358,7 +358,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i: home/e
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
@@ -366,7 +366,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s: home/e
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
@@ -374,7 +374,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj: 
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
@@ -382,7 +382,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i: ho
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
@@ -390,7 +390,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s: ho
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
@@ -398,7 +398,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj: home/e
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
@@ -406,7 +406,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i: home/efa
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
@@ -414,7 +414,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s: home/efa
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
@@ -422,7 +422,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj: home/ef
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
@@ -430,7 +430,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i: home/efac
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
@@ -438,7 +438,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s: home/efac
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
@@ -446,7 +446,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj: home/e
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
@@ -454,7 +454,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i: home/efa
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
@@ -462,7 +462,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s: home/efa
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
@@ -470,7 +470,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
@@ -478,7 +478,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj: hom
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
@@ -486,7 +486,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i: home/
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
@@ -494,7 +494,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s: home/
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
@@ -502,7 +502,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
@@ -510,7 +510,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
@@ -518,7 +518,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
@@ -526,7 +526,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
@@ -534,7 +534,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
@@ -542,7 +542,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
@@ -550,7 +550,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj: ho
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
@@ -558,7 +558,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj: home
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
@@ -566,7 +566,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i: home/e
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
@@ -574,7 +574,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s: home/e
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
@@ -582,7 +582,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.o
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
@@ -590,7 +590,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
@@ -598,7 +598,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
@@ -606,7 +606,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj: h
 
 # target to build an object file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
@@ -614,7 +614,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i: hom
 
 # target to preprocess a source file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
 
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
@@ -622,7 +622,7 @@ home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s: hom
 
 # target to generate assembly for a file
 home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igpio_led_output.elf.dir/build.make CMakeFiles/igpio_led_output.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpio_test_pin.elf.dir/build.make CMakeFiles/gpio_test_pin.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
 .PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
 
 # Help Target
@@ -633,7 +633,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... igpio_led_output.elf"
+	@echo "... gpio_test_pin.elf"
 	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.obj"
 	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.i"
 	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/board.s"

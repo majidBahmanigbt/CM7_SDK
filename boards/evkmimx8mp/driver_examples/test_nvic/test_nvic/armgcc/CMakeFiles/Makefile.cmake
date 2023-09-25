@@ -129,5 +129,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/igpio_led_output.elf.dir/DependInfo.cmake"
+  "CMakeFiles/test_nvic.elf.dir/DependInfo.cmake"
   )

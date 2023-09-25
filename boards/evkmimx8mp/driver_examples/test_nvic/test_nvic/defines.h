@@ -10,7 +10,11 @@
 #undef  IRQ_63   // GPIO1_00           
 #undef  IRQ_64   // GPIO1  00-15
 #undef  IRQ_65   // GPIO1  16-31
-#undef  IRQ_66   // GPIO1  00-15
-#undef  IRQ_67   // GPIO1  16-31
-#undef  IRQ_68   // GPIO1  00-15
-#define IRQ_69   // GPIO1  16-31  
+#undef  IRQ_66   // GPIO2  00-15
+#undef  IRQ_67   // GPIO2  16-31
+#undef  IRQ_68   // GPIO3  00-15
+#undef  IRQ_69   // GPIO3  16-31 
+#undef  IRQ_70   // GPIO4  00-15 
+#undef  IRQ_71   // GPIO4  16-31 
+#define IRQ_72   // GPIO5  00-15 
+#undef  IRQ_73   // GPIO5  16-31  
