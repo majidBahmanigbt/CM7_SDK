@@ -168,6 +168,8 @@
 
 #endif
 
+#define TEST_OUTPUT_GPIO GPIO5
+#define TEST_OUTPUT_PIN  9U  
 
 /*******************************************************************************
  * Prototypes
@@ -178,20 +180,42 @@
  ******************************************************************************/
 /* The PIN status */
 volatile bool g_pinSet = false;
+int interrupt_counter = 0;
+
 /*******************************************************************************
  * Code
  ******************************************************************************/
 
 void TEST_IRQ_HANDLER(){
 
-    // SDK_DelayAtLeastUs(20, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
-    // PRINTF("Interrupt: %d\r\n" , TEST_IRQ_TYPE); 
-    // GPIO_PortClearInterruptFlags(TEST_IRQ_GPIO , TEST_IRQ_PIN);
-    // GPIO_PortEnableInterrupts(TEST_IRQ_GPIO, 1U << TEST_IRQ_PIN);
+    //SDK_DelayAtLeastUs(20, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
+    // PRINTF("Interrupt: %d\r\n" , interrupt_counter);
+    // interrupt_counter ++;
+    // if(interrupt_counter > 500){
+    //     interrupt_counter = 0;
+    // }
 
-    SDK_DelayAtLeastUs(20, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);
-    PRINTF("Interrupt: %d\r\n" , TEST_IRQ_TYPE);
-    GPIO_PortClearInterruptFlags(TEST_IRQ_GPIO , TEST_IRQ_PIN);
+// #if (defined(FSL_FEATURE_IGPIO_HAS_DR_TOGGLE) && (FSL_FEATURE_IGPIO_HAS_DR_TOGGLE == 1))
+//         GPIO_PortToggle(TEST_OUTPUT_GPIO, 1u << TEST_OUTPUT_PIN);
+// #else
+//         if (g_pinSet)
+//         {
+//             GPIO_PinWrite(TEST_OUTPUT_GPIO, TEST_OUTPUT_PIN, 0U);
+//             g_pinSet = false;
+//         }
+//         else
+//         {
+//             GPIO_PinWrite(TEST_OUTPUT_GPIO, TEST_OUTPUT_PIN, 1U);
+//             g_pinSet = true;
+//         }
+// #endif
+
+    GPIO5->DR = 1u << 9;
+    GPIO5->DR = 0u;
+    //GPIO_PinWrite(TEST_OUTPUT_GPIO, TEST_OUTPUT_PIN, 1U);
+    //GPIO_PinWrite(TEST_OUTPUT_GPIO, TEST_OUTPUT_PIN, 0U);
+
+    GPIO_PortClearInterruptFlags(TEST_IRQ_GPIO , 1U << TEST_IRQ_PIN);
     //GPIO_PortEnableInterrupts(TEST_IRQ_GPIO, 1U << TEST_IRQ_PIN);
     __DSB();
 
@@ -203,7 +227,7 @@ void TEST_IRQ_HANDLER(){
 int main(void)
 {
     /* Define the init structure for the output LED pin*/
-    //gpio_pin_config_t led_config = {kGPIO_DigitalOutput, 0, kGPIO_NoIntmode};
+    gpio_pin_config_t output_config = {kGPIO_DigitalOutput, 0, kGPIO_NoIntmode};
     gpio_pin_config_t exi_config = {kGPIO_DigitalInput , 0, kGPIO_IntRisingOrFallingEdge};
 
     /* Board pin, clock, debug console init */
@@ -219,9 +243,10 @@ int main(void)
     BOARD_BootClockRUN();
     BOARD_InitDebugConsole();
 
-    PRINTF("\r\n Test Interrupt %d: 2023/09/25\r\n" , TEST_IRQ_TYPE);
+    PRINTF("\r\n Test Interrupt %d: 2023/09/27 15:31\r\n" , TEST_IRQ_TYPE);
     GPIO_PinSetInterruptConfig(TEST_IRQ_GPIO , TEST_IRQ_PIN , kGPIO_IntRisingOrFallingEdge);
-    // GPIO_PinInit(TEST_IRQ_GPIO , TEST_IRQ_PIN , &output_config);
+    
+    GPIO_PinInit(TEST_OUTPUT_GPIO , TEST_OUTPUT_PIN , &output_config);
     GPIO_PinInit(TEST_IRQ_GPIO , TEST_IRQ_PIN , &exi_config);
     
     GPIO_EnableInterrupts(TEST_IRQ_GPIO, 1U << TEST_IRQ_PIN);

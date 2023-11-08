@@ -201,6 +201,11 @@ void BOARD_InitPins(void) {                                /*!< Function assigne
                         IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
                         IOMUXC_SW_PAD_CTL_PAD_PE_MASK); 
 
+    IOMUXC_SetPinMux(IOMUXC_ECSPI1_SS0_GPIO5_IO09, 0U); 
+    IOMUXC_SetPinConfig(IOMUXC_ECSPI1_SS0_GPIO5_IO09, 
+                        IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK);            
 
 #elif defined IRQ_73
 
