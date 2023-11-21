@@ -1,5 +1,5 @@
 The target system is: Generic -  - arm
-The host system is: Linux - 6.2.0-33-generic - x86_64
+The host system is: Linux - 6.2.0-36-generic - x86_64
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
 Copyright (C) 2020 Free Software Foundation, Inc.
@@ -17,7 +17,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
@@ -30,5 +30,5 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
 

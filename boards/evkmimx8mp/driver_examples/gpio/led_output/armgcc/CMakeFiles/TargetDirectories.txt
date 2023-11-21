@@ -1,3 +1,0 @@
-/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/armgcc/CMakeFiles/gpio_test_pin.elf.dir
-/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/armgcc/CMakeFiles/edit_cache.dir
-/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/gpio/led_output/armgcc/CMakeFiles/rebuild_cache.dir

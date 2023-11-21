@@ -1,3 +1,3 @@
-/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/test_nvic.elf.dir
-/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/edit_cache.dir
-/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/rebuild_cache.dir
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/test_nvic.elf.dir
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/edit_cache.dir
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles/rebuild_cache.dir

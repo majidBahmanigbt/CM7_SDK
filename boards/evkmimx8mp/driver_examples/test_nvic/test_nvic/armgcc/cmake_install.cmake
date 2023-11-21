@@ -1,4 +1,4 @@
-# Install script for directory: /home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc
+# Install script for directory: /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

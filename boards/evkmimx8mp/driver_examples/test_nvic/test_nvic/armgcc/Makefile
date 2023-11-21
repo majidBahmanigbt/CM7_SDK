@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc
+CMAKE_SOURCE_DIR = /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc
+CMAKE_BINARY_DIR = /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles /home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/armgcc/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,501 +129,501 @@ test_nvic.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/build
 .PHONY : test_nvic.elf/fast
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj
-
-# target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
-
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj
+
+# target to build an object file
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj
-
-# target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
-
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj
+
+# target to build an object file
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.s
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj
 
 # target to build an object file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i
 
 # target to preprocess a source file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.i
 
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s: home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s: home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s
 
 # target to generate assembly for a file
-home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
-.PHONY : home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
+home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_nvic.elf.dir/build.make CMakeFiles/test_nvic.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
+.PHONY : home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.s
 
 # Help Target
 help:
@@ -634,68 +634,68 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test_nvic.elf"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i"
-	@echo "... home/efacec/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/board.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/clock_config.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/empty_rsc_table.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/pin_mux.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/driver_examples/test_nvic/test_nvic/test_nvic.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.s"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.obj"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.i"
+	@echo "... home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.s"
 .PHONY : help
 
 

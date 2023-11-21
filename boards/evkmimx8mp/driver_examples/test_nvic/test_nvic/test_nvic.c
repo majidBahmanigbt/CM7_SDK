@@ -243,7 +243,7 @@ int main(void)
     BOARD_BootClockRUN();
     BOARD_InitDebugConsole();
 
-    PRINTF("\r\n Test Interrupt %d: 2023/09/27 15:31\r\n" , TEST_IRQ_TYPE);
+    PRINTF("\r\n Test Interrupt %d: 2023/11/16 14:46\r\n" , TEST_IRQ_TYPE);
     GPIO_PinSetInterruptConfig(TEST_IRQ_GPIO , TEST_IRQ_PIN , kGPIO_IntRisingOrFallingEdge);
     
     GPIO_PinInit(TEST_OUTPUT_GPIO , TEST_OUTPUT_PIN , &output_config);
