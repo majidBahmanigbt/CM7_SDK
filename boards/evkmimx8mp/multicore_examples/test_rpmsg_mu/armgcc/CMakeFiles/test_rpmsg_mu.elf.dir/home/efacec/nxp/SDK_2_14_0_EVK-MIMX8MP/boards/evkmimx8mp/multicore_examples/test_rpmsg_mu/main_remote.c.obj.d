@@ -42,7 +42,16 @@ CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/e
  /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/./fsl_uart.h \
  /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/rsc_table.h \
  /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/../remoteproc.h \
- /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/fsl_gpio.h
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/fsl_gpio.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_lite.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_compiler.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/virtqueue.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/virtio_ring.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/llist.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_env.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_queue.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_lite.h \
+ /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_ns.h
 /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/platform/imx8mp_m7/rpmsg_platform.h:
 /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_env.h:
 /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_default_config.h:
@@ -86,3 +95,12 @@ CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/e
 /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/rsc_table.h:
 /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/../remoteproc.h:
 /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/fsl_gpio.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_lite.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_compiler.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/virtqueue.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/virtio_ring.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/llist.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_env.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_queue.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_lite.h:
+/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/include/rpmsg_ns.h:

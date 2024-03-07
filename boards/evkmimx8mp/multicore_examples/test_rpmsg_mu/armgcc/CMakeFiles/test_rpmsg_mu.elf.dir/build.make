@@ -688,55 +688,55 @@ test_rpmsg_mu_elf_OBJECTS = \
 # External object files for target test_rpmsg_mu.elf
 test_rpmsg_mu_elf_EXTERNAL_OBJECTS =
 
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/main_remote.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/pin_mux.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/fsl_gpio.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/rsc_table.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/board.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/clock_config.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/serial_manager/fsl_component_serial_manager.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/serial_manager/fsl_component_serial_port_uart.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_mu.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/croutine.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/event_groups.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/list.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/queue.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/stream_buffer.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/tasks.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/timers.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM4F/port.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/common/llist.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_lite.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_ns.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/virtio/virtqueue.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/environment/rpmsg_env_freertos.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_queue.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_assert.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console/fsl_debug_console.c.obj
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/build.make
-flash_release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking C executable flash_release/test_rpmsg_mu.elf"
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/main_remote.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/pin_mux.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/fsl_gpio.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/rsc_table.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/board.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/clock_config.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/lists/fsl_component_generic_list.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/serial_manager/fsl_component_serial_manager.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/components/serial_manager/fsl_component_serial_port_uart.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_mu.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/croutine.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/event_groups.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/list.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/queue.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/stream_buffer.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/tasks.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/timers.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM4F/port.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/common/llist.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_lite.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_ns.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/virtio/virtqueue.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/environment/rpmsg_env_freertos.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/rpmsg_queue.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/middleware/multicore/rpmsg_lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_assert.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console/fsl_debug_console.c.obj
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/build.make
+release/test_rpmsg_mu.elf: CMakeFiles/test_rpmsg_mu.elf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking C executable release/test_rpmsg_mu.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_rpmsg_mu.elf.dir/link.txt --verbose=$(VERBOSE)
-	/home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy -Obinary /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/flash_release/test_rpmsg_mu.elf /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/flash_release/test_rpmsg_mu.bin
+	/home/efacec/var-mcuxpresso/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy -Obinary /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/release/test_rpmsg_mu.elf /home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/armgcc/release/test_rpmsg_mu.bin
 
 # Rule to build all files generated by this target.
-CMakeFiles/test_rpmsg_mu.elf.dir/build: flash_release/test_rpmsg_mu.elf
+CMakeFiles/test_rpmsg_mu.elf.dir/build: release/test_rpmsg_mu.elf
 .PHONY : CMakeFiles/test_rpmsg_mu.elf.dir/build
 
 CMakeFiles/test_rpmsg_mu.elf.dir/clean:

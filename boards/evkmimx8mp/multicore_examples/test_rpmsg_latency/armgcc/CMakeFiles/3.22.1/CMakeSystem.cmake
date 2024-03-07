@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.2.0-36-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.5.0-21-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.2.0-36-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.5.0-21-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/tools/cmake_toolchain_files/armgcc.cmake")

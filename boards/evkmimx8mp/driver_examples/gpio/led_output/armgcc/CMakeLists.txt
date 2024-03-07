@@ -50,6 +50,8 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${ProjDirPath}/../pin_mux.h"
 "${ProjDirPath}/../board.c"
 "${ProjDirPath}/../board.h"
+"${ProjDirPath}/../rsc_table.c"
+"${ProjDirPath}/../rsc_table.h"
 "${ProjDirPath}/../clock_config.c"
 "${ProjDirPath}/../clock_config.h"
 "${ProjDirPath}/../fsl_iomuxc.h"

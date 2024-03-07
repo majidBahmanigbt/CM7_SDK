@@ -703,6 +703,7 @@ int32_t env_create_queue(void **queue,
 #else
 int32_t env_create_queue(void **queue, int32_t length, int32_t element_size)
 {
+    // PRINTF("BUF_LEN: %d , ELE_SIZE: %d\r\n" , length , element_size);
     *queue = xQueueCreate((UBaseType_t)length, (UBaseType_t)element_size);
 #endif
     if (*queue != ((void *)0))
@@ -748,6 +749,7 @@ int32_t env_put_queue(void *queue, void *msg, uintptr_t timeout_ms)
         if (xQueueSendFromISR(queue, msg, &xHigherPriorityTaskWoken) == pdPASS)
         {
             portEND_SWITCHING_ISR(xHigherPriorityTaskWoken);
+            // PRINTF("Endpoint Callback1\r\n");
             return 1;
         }
     }
@@ -756,9 +758,11 @@ int32_t env_put_queue(void *queue, void *msg, uintptr_t timeout_ms)
         if (xQueueSend(queue, msg, ((portMAX_DELAY == timeout_ms) ? portMAX_DELAY : timeout_ms / portTICK_PERIOD_MS)) ==
             pdPASS)
         {
+            // PRINTF("Endpoint Callback2\r\n");
             return 1;
         }
     }
+    // PRINTF("Endpoint Callback3\r\n");
     return 0;
 }
 
@@ -793,6 +797,7 @@ int32_t env_get_queue(void *queue, void *msg, uintptr_t timeout_ms)
             return 1;
         }
     }
+
     return 0;
 }
 

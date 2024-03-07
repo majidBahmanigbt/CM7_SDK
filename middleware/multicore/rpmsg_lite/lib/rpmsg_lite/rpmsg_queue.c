@@ -36,7 +36,7 @@
 int32_t rpmsg_queue_rx_cb(void *payload, uint32_t payload_len, uint32_t src, void *priv)
 {
     rpmsg_queue_rx_cb_data_t msg;
-
+    // PRINTF("rpmsg_queue_rx_cb!\r\n");
     RL_ASSERT(priv != RL_NULL);
 
     msg.data = payload;

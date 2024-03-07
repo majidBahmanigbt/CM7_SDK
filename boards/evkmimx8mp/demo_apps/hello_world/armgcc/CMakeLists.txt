@@ -54,6 +54,10 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${ProjDirPath}/../clock_config.h"
 "${ProjDirPath}/../fsl_iomuxc.h"
 "${ProjDirPath}/../empty_rsc_table.c"
+"${ProjDirPath}/../rsc_table.c"
+"${ProjDirPath}/../rsc_table.h"
+"${ProjDirPath}/../remoteproc.h"
+"${ProjDirPath}/../rpmsg_config.h"
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE

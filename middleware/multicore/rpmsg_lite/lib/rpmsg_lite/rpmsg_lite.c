@@ -139,6 +139,7 @@ static void rpmsg_lite_rx_callback(struct virtqueue *vq)
         cb_ret = RL_RELEASE;
         if (node != RL_NULL)
         {
+            // PRINTF("Call Ept CB\r\n");
             ept    = (struct rpmsg_lite_endpoint *)node->data;
             cb_ret = ept->rx_cb(rpmsg_msg->data, rpmsg_msg->hdr.len, rpmsg_msg->hdr.src, ept->rx_cb_data);
         }
@@ -167,6 +168,7 @@ static void rpmsg_lite_rx_callback(struct virtqueue *vq)
 #if defined(RL_USE_ENVIRONMENT_CONTEXT) && (RL_USE_ENVIRONMENT_CONTEXT == 1)
     env_unlock_mutex(rpmsg_lite_dev->lock);
 #endif
+    // PRINTF("Virtqueue rpmsg_lite_rx_callback!\r\n");
 }
 
 /*!

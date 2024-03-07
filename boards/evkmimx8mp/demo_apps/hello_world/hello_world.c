@@ -12,6 +12,8 @@
 #include "clock_config.h"
 #include "board.h"
 
+#include "rsc_table.h"
+
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -44,7 +46,9 @@ int main(void)
     BOARD_BootClockRUN();
     BOARD_InitDebugConsole();
 
-    PRINTF("hello world.\r\n");
+    copyResourceTable();
+
+    PRINTF("Test CM7: hello world 1222.\r\n");
 
     while (1)
     {

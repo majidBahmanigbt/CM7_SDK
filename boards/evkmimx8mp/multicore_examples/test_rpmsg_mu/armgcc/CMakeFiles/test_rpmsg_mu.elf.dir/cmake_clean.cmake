@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "flash_release/test_rpmsg_mu.bin"
   "output.map"
+  "release/test_rpmsg_mu.bin"
   "CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/board.c.obj"
   "CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/board.c.obj.d"
   "CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/boards/evkmimx8mp/multicore_examples/test_rpmsg_mu/clock_config.c.obj"
@@ -81,8 +81,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/tasks.c.obj.d"
   "CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/timers.c.obj"
   "CMakeFiles/test_rpmsg_mu.elf.dir/home/efacec/nxp/SDK_2_14_0_EVK-MIMX8MP/rtos/freertos/freertos-kernel/timers.c.obj.d"
-  "flash_release/test_rpmsg_mu.elf"
-  "flash_release/test_rpmsg_mu.elf.pdb"
+  "release/test_rpmsg_mu.elf"
+  "release/test_rpmsg_mu.elf.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

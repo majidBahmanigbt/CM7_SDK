@@ -95,7 +95,8 @@ int32_t MU1_M7_IRQHandler(void)
 
     if ((((1UL << 27U) >> RPMSG_MU_CHANNEL) & MU_GetStatusFlags(MUB)) != 0UL)
     {
-    	PRINTF("Received!\n");
+    
+    	//PRINTF("MU1_M7_IRQHandler!\r\n");      
         channel = MU_ReceiveMsgNonBlocking(MUB, RPMSG_MU_CHANNEL); // Read message from RX register.
         env_isr(channel >> 16);
     }

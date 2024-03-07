@@ -14,6 +14,7 @@
 #include "board.h"
 #include "rsc_table.h"
 #include "rpmsg_lite.h"
+#include "rpmsg_config.h"
 #include <string.h>
 
 #define NUM_VRINGS 0x02
@@ -25,6 +26,15 @@ __attribute__((section(".resource_table")))
 #pragma location = ".resource_table"
 #else
 #error Compiler not supported!
+#endif
+
+#ifndef VRING_ALIGN
+#define VRING_ALIGN (0x1000U)
+#endif
+
+/* contains pool of descriptors and two circular buffers */
+#ifndef VRING_SIZE
+#define VRING_SIZE (0x8000UL)
 #endif
 
 const struct remote_resource_table resources = {
